@@ -14,7 +14,7 @@ Code example
 ### Markdown
 
 ```php
-$converter = new Markdownify\Converter;
+$converter = new \Markdownify\Converter;
 $converter->parseString('<h1>Heading</h1>');
 // Returns: # Heading
 ```
@@ -22,7 +22,7 @@ $converter->parseString('<h1>Heading</h1>');
 ### Markdown Extra [as defined by @michelf](http://michelf.ca/projects/php-markdown/extra/)
 
 ```php
-$converter = new Markdownify\ConverterExtra;
+$converter = new \Markdownify\ConverterExtra;
 $converter->parseString('<h1 id="md">Heading</h1>');
 // Returns: # Heading {#md}
 ```
